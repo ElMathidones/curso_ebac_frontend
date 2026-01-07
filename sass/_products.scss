@@ -1,0 +1,30 @@
+@use 'variables';
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+
+.product-item {
+    background-color: variables.$cor-branca;
+    padding: variables.$espacamento-padrao;
+
+    button {
+        background-color: variables.$cor-secundaria;
+        color: variables.$cor-branca;
+        border: none;
+        padding: 8px;
+        cursor: pointer;
+    }
+}}
+
+@media screen and (max-width: 767px) {
+.products {
+    display: block;
+}
+
+.product-item {
+    margin-bottom: 32px;
+}
+}

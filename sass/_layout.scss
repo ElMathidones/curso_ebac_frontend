@@ -1,0 +1,15 @@
+@use 'variables';
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: variables.$cor-primaria;
+    padding: variables.$espacamento-padrao;
+
+h1 {
+    color: variables.$cor-branca;
+}}
