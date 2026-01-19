@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: extract(background);
+    color:extract(text);
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  width: calc(100% - 40px);
+}
+.button {
+  background-color: extract(secondary);
+  color: #fff;
+  padding: 8px 16px;
+}
